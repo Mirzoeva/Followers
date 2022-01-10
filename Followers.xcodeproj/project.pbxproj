@@ -22,6 +22,7 @@
 		A1777EFB2755451E0023A20B /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1777EFA2755451E0023A20B /* FavoritesListVC.swift */; };
 		A1777EFD275550DA0023A20B /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1777EFC275550DA0023A20B /* GFButton.swift */; };
 		A1777EFF275554BA0023A20B /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1777EFE275554BA0023A20B /* GFTextField.swift */; };
+		A1BA61D8278AB1E700EFFFC3 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA61D7278AB1E700EFFFC3 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		A1777EFA2755451E0023A20B /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		A1777EFC275550DA0023A20B /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		A1777EFE275554BA0023A20B /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		A1BA61D7278AB1E700EFFFC3 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				A1777EFC275550DA0023A20B /* GFButton.swift */,
 				A1777EFE275554BA0023A20B /* GFTextField.swift */,
 				A101F0332767630C005FDD57 /* FollowerListVC.swift */,
+				A1BA61D7278AB1E700EFFFC3 /* UIViewController+Ext.swift */,
 			);
 			path = Followers;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				A1777EFF275554BA0023A20B /* GFTextField.swift in Sources */,
 				A1777EFB2755451E0023A20B /* FavoritesListVC.swift in Sources */,
 				A1777EFD275550DA0023A20B /* GFButton.swift in Sources */,
+				A1BA61D8278AB1E700EFFFC3 /* UIViewController+Ext.swift in Sources */,
 				A1777EF9275544D00023A20B /* SearchVC.swift in Sources */,
 				A101F03A276813AC005FDD57 /* GFAlertVC.swift in Sources */,
 				A101F03827681292005FDD57 /* GFBodyLabel.swift in Sources */,
