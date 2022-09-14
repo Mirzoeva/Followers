@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  Followers
 //
 //  Created by Ума Мирзоева on 08.09.2022.
