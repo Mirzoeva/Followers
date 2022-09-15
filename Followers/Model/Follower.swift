@@ -18,7 +18,7 @@ struct Follower: Codable {
 
 extension Follower : Hashable {
     static func ==(lhs: Follower, rhs: Follower) -> Bool {
-        return lhs.uuid == rhs.uuid
+        return lhs.login == rhs.login
     }
 
     func hash(into hasher: inout Hasher) {
