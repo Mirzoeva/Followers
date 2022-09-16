@@ -8,7 +8,6 @@
 import UIKit
 
 class GFButton: UIButton {
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -18,23 +17,24 @@ class GFButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(backgroundColor: UIColor, title: String) {
-        super.init(frame: .zero)
-        self.backgroundColor = backgroundColor
-        self.setTitle(title, for: .normal)
-        configure()
+    convenience init(backgroundColor: UIColor, title: String, buttonImage: UIImage) {
+        self.init(frame: .zero)
+        set(color: backgroundColor, title: title, buttonImage: buttonImage)
     }
     
     private func configure() {
-        layer.cornerRadius = 10
-        setTitleColor(.white, for: .normal)
-        titleLabel?.textColor = .white
-        titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
+        configuration = .tinted()
+        configuration?.cornerStyle = .medium
         translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func set(backgroundColor: UIColor, title: String) {
-        self.backgroundColor = backgroundColor
-        setTitle(title, for: .normal)
+    final func set(color: UIColor, title: String, buttonImage: UIImage) {
+        configuration?.baseBackgroundColor = color
+        configuration?.baseForegroundColor = color
+        configuration?.title = title
+        
+        configuration?.image = buttonImage
+        configuration?.imagePadding = 6
+        configuration?.imagePlacement = .leading
     }
 }
